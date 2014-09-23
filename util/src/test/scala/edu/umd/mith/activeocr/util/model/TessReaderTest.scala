@@ -58,7 +58,7 @@ trait TessExample extends Scope {
 
   val source = Source.fromInputStream(
     this.getClass.getResourceAsStream(filename)
-  )
+  )("UTF-8")
 
   val reader = new XMLEventReader(source)
   val pages = TessReader.parsePage(
