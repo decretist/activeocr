@@ -5,3 +5,7 @@ Active OCR is an [NEH-funded project](https://securegrants.neh.gov/publicquery/m
 at the [Maryland Institute for Technology in the Humanities](http://mith.umd.edu/) that is developing methods for improving
 optical character recognition in humanities text collections.
 
+```
+mvn clean; mvn compile; mvn install -U; (cd web; mvn package; mvn jetty:run)
+```
+
